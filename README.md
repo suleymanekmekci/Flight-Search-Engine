@@ -174,25 +174,6 @@ newline
 newline
 newline
 
-##### Example of output.txt
-command : listAll Istanbul->Madrid 30/04/2020
-LH7366 IST->SOF||TK8994 SOF->CDG||TK9156 CDG->MAD 17:45/350
-TK8739 IST->FCO||TK4074 FCO->CDG||TK9156 CDG->MAD 13:00/310
-KL8222 IST->ATH||LH4696 ATH->FCO||TK4074 FCO->CDG||TK9156 CDG->MAD 13:15/415
-KL8222 IST->ATH||LH0893 ATH->TXL||LH9137 TXL->MAD 11:35/480
-command : listProper Istanbul->Madrid 30/04/2020
-TK8739 IST->FCO||TK4074 FCO->CDG||TK9156 CDG->MAD 13:00/310
-KL8222 IST->ATH||LH0893 ATH->TXL||LH9137 TXL->MAD 11:35/480
-command : listCheapest Istanbul->Madrid 30/04/2020
-TK8739 IST->FCO||TK4074 FCO->CDG||TK9156 CDG->MAD 13:00/310
-command : listQuickest Istanbul->Madrid 30/04/2020
-Not implemented
-command : listOnlyFromIstanbul->Madrid 30/04/2020 AA
-No suitable flight plan is found
-command : diameterOfGraph
-The diameter of graph : 350
-
-
 
 ## Execution and Test
 The input files should be given as program arguments. The argument order will be as follow:

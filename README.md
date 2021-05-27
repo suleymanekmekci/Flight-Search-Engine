@@ -49,12 +49,13 @@ a graph according to airportList.txt and flightList.txt files.
 
 #### Structure of flightList.txt
 **[flight_id]** tab **[dept]** -> **[arr]** tab **[dept_date]** tab **[duration]** tab **[price]** newline
+<br/>
 **[flight_id]** tab **[dept]** -> **[arr]** tab **[dept_date]** tab **[duration]** tab **[price]** newline
 
 #### Example of flightList.txt
-KL6805 FCO->TXL 30/04/2020 21:40 Thu 02:25 75
-LH6171 SOF->FCO 01/05/2020 19:00 Fri 01:55 135
-TK2133 IST->FCO 01/05/2020 16:20 Thu 02:25 125
+KL6805 FCO->TXL 30/04/2020 21:40 Thu 02:25 75<br/>
+LH6171 SOF->FCO 01/05/2020 19:00 Fri 01:55 135<br/>
+TK2133 IST->FCO 01/05/2020 16:20 Thu 02:25 125<br/>
 
 
 ### Command List
@@ -97,7 +98,7 @@ arrival point. There may be more than one possible cheapest flight plans.
 ##### Structure of command
 **[listCheapest]** tab **[dept]**-> **[arr]** tab **[start_date]**
 
-#### 3- List Cheapest
+#### 4- List Cheapest
 
 List cheapest command is used for listing the cheapest possible flight plan(s) from departure point to the
 arrival point. There may be more than one possible cheapest flight plans.
@@ -105,7 +106,7 @@ arrival point. There may be more than one possible cheapest flight plans.
 ##### Structure of command
 **[listCheapest]** tab **[dept]**-> **[arr]** tab **[start_date]**
 
-#### 4- List Quickest
+#### 5- List Quickest
 
 List quickest command is used for listing the quickest possible flight plan(s) from departure point to the
 arrival point. There may be more than one possible quickest flight plans.
@@ -113,7 +114,7 @@ arrival point. There may be more than one possible quickest flight plans.
 ##### Structure of command
 **[listQuickest]** tab **[dept]**-> **[arr]** tab **[start_date]**
 
-#### 5- List Cheaper
+#### 6- List Cheaper
 
 List cheaper command is used for listing all the **proper** flight plans from departure point to the arrival
 point that are cheaper than given parameter.
@@ -121,7 +122,7 @@ point that are cheaper than given parameter.
 ##### Structure of command
 **[listCheaper]** tab **[dept]**-> **[arr]** tab **[start_date]** tab **[max_price]**
 
-#### 6- List Quicker
+#### 7- List Quicker
 
 List quicker command is used for listing all the **proper** flight plans from departure point to the arrival
 point that arrive to the destination earlier than given parameter.
@@ -129,7 +130,7 @@ point that arrive to the destination earlier than given parameter.
 ##### Structure of command
 **[listQuicker]** tab **[dept]**-> **[arr]** tab **[start_date]** tab **[latest_date_time]**
 
-#### 7- List Excluding
+#### 8- List Excluding
 
 List excluding command is used for listing all the **proper** flight plans from departure point to the arrival
 point that do not involve a flight from given airlines company.
@@ -137,7 +138,7 @@ point that do not involve a flight from given airlines company.
 ##### Structure of command
 **[listExcluding]** tab **[dept]**-> **[arr]** tab **[start_date]** tab **[company]**
 
-#### 8- List Only From
+#### 9- List Only From
 
 List only from command is used for listing all the **proper** flight plans from departure point to the arrival
 point that consists of flights only from the given airlines company.
@@ -145,7 +146,7 @@ point that consists of flights only from the given airlines company.
 ##### Structure of command
 **[listOnlyFrom]** tab **[dept]**-> **[arr]** tab **[start_date]** tab **[company]**
 
-#### 9- Diameter of Graph
+#### 10- Diameter of Graph
 
 The diameter of graph is the maximum distance between the pair of vertices. It can also be defined as the
 longest shortest path. When calculating the diameter of graph, consider the graph that you created by using 
@@ -161,18 +162,18 @@ is output.txt. The output format of first eight command are similar but for last
 Simply, each command is printed to a line of the output file in the following format:
 
 ##### Structure of output.txt
-[command] : [first command in command.txt] newline
-[flight_id] tab [dept]-> [arr]||[flight_id] tab [dept]-> [arr]||…… tab [duration]/[total_price] newline
-newline
-newline
-[command] : [second command in command.txt] newline
-[flight_id] tab [dept]-> [arr]||[flight_id] tab [dept]-> [arr]||…… tab [duration]/[total_price] newline
-newline
-newline
-[command] : [third command in command.txt] newline // for diameter of graph
-[The diameter of graph] : total_price
-newline
-newline
+[command] : [first command in command.txt] newline <br/>
+[flight_id] tab [dept]-> [arr]||[flight_id] tab [dept]-> [arr]||…… tab [duration]/[total_price] newline <br/>
+newline <br/>
+newline <br/>
+[command] : [second command in command.txt] newline <br/>
+[flight_id] tab [dept]-> [arr]||[flight_id] tab [dept]-> [arr]||…… tab [duration]/[total_price] newline <br/>
+newline <br/>
+newline <br/>
+[command] : [third command in command.txt] newline // for diameter of graph <br/>
+[The diameter of graph] : total_price <br/>
+newline <br/>
+newline <br/>
 
 
 ## Execution and Test

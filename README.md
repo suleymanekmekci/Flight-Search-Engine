@@ -137,7 +137,7 @@ point that do not involve a flight from given airlines company.
 ##### Structure of command
 **[listExcluding]** tab **[dept]**-> **[arr]** tab **[start_date]** tab **[company]**
 
-#### 7- List Only From
+#### 8- List Only From
 
 List only from command is used for listing all the **proper** flight plans from departure point to the arrival
 point that consists of flights only from the given airlines company.
@@ -145,7 +145,7 @@ point that consists of flights only from the given airlines company.
 ##### Structure of command
 **[listOnlyFrom]** tab **[dept]**-> **[arr]** tab **[start_date]** tab **[company]**
 
-#### 7- Diameter of Graph
+#### 9- Diameter of Graph
 
 The diameter of graph is the maximum distance between the pair of vertices. It can also be defined as the
 longest shortest path. When calculating the diameter of graph, consider the graph that you created by using 
